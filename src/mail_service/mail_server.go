@@ -23,7 +23,7 @@ var mailboxInstance *mailbox
 
 func init() {
 	mailboxInstance = new(mailbox)
-	mailboxInstance.Database = "hamid:kolajoke2055@tcp(localhost:3306)/mailbox"
+	mailboxInstance.Database = "hamid:@tcp(localhost:3306)/mailbox"
 }
 
 func (m *mailbox) Open() bool {
